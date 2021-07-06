@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fr3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foto"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modelo"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sansung_fe" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Samsung\ngalaxy\ns20 fe"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Procesador:\nQualcomm\nSnapdragon 865\nRam:\n8GB \nMemoria:\n256GB \nCamara:\n32MP\nBatería:\n4500mAh
+            "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="113dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tag_ll"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="https://amzn.to/3w1Hvia"
+                android:textColor="@color/design_default_color_secondary"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/poco_f2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Xiaomi\npoco f2 pro"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Procesador:\nQualcomm\nSnapdragon 865\nRam:\n6GB \nMemoria:\n128GB \nCamara:\n64MP\nBatería:\n4700mAh
+"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="113dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tag_ll"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="https://amzn.to/3ydmYcn"
+                android:textColor="@color/design_default_color_secondary"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/plusnord" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="One plus\nnord"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Procesador:\nQualcomm\nSnapdragon 765G\nRam:\n12GB \nMemoria:\n256GB \nCamara:\n64MP\nBatería:\n4100mAh\nIntegración Alexa
+"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="113dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tag_ll"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="https://amzn.to/3brGYhp"
+                android:textColor="@color/design_default_color_secondary"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+    </TableLayout>
+</RelativeLayout>
+</FrameLayout>

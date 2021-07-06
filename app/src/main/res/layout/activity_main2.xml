@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pruebalogo">
+
+    <ImageView
+        android:id="@+id/buttonRss"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="22dp"
+        android:adjustViewBounds="false"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:onClick="news"
+        android:src="@drawable/news"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCuestionario"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttonTop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:adjustViewBounds="false"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:onClick="top"
+        android:src="@drawable/podio"
+        app:layout_constraintBottom_toTopOf="@+id/buttonJuego"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonRss"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttonCuestionario"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="233dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:onClick="cuestionario"
+        android:src="@drawable/cuestionario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonJuego"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRss" />
+
+    <ImageView
+        android:id="@+id/buttonJuego"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="233dp"
+        android:adjustViewBounds="false"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:onClick="minijuego"
+        android:src="@drawable/minijuego"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonCuestionario"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTop" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#92E3F1"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>
